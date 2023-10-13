@@ -1,5 +1,5 @@
 {
-    "name": "zendframework/zend-form",
+    "name": "webino/zend-form",
     "description": " ",
     "license": "BSD-3-Clause",
     "keywords": [
@@ -12,8 +12,11 @@
             "Zend\\Form\\": "src/"
         }
     },
+    "replace": {
+        "zendframework/zend-form": "self.version"
+    },
     "require": {
-        "php": ">=5.5",
+        "php": "^7.1",
         "zendframework/zend-inputfilter": "~2.5",
         "zendframework/zend-hydrator": "~1.0",
         "zendframework/zend-stdlib": "~2.7"
